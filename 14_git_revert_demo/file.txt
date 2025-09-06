@@ -1,2 +1,3 @@
 Line 1
 Line 2
+Realization: Revert created a new commit that undid the last change. History stayed intact, and file.txt rolled back only the latest commit’s content.
