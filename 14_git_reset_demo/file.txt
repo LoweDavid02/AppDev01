@@ -1,1 +1,2 @@
 Line 1
+Realization: After reset, the extra commits and file changes disappeared. Only Line 1 remains.
