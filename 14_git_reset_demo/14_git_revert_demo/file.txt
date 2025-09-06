@@ -1,3 +1,0 @@
-Line 1
-Line 2
-Realization: After git revert, the commit history still keeps the old commits, but a new commit is created to undo the changes, making it safer than reset.
