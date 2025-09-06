@@ -1,0 +1,1 @@
+Realization: Micro commits make history cleaner and easier to understand, while macro commits bundle too many changes into one and are harder to manage.
