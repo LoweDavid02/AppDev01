@@ -1,1 +1,2 @@
 Line 1
+Realization: After a git reset --hard, both the commit history and file contents go back to the chosen commit, removing newer commits.
