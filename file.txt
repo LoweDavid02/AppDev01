@@ -1,1 +1,0 @@
-Realization: After merging, the commit history shows a merge commit that joins both branches. The history preserves both lines of work before they converged into main.
