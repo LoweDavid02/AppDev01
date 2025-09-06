@@ -1,0 +1,1 @@
+Realization: After merge, history shows a merge commit where feature and main converge; feature commits are preserved and the branches are joined.
