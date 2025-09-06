@@ -1,0 +1,1 @@
+Realization: After rebasing, the feature branch's commits were rewritten and replayed on top of main, producing a linear history. The rebased commits receive new hashes.
