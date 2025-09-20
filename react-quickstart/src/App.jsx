@@ -100,3 +100,15 @@ function ShoppingList() {
   return <ul>{listItems}</ul>;
 }
 
+// 7. Responding to events
+function AlertButton() {
+  function handleClick() {
+    alert('You clicked me!');
+  }
+  return (
+    <button onClick={handleClick}>
+      Click me
+    </button>
+  );
+}
+
