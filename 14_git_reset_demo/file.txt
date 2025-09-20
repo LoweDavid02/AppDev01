@@ -1,1 +1,2 @@
 Line 1
+Realization: After reset, the commits after the chosen commit disappeared, and the file content reverted to that commit’s state.
