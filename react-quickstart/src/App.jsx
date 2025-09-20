@@ -61,3 +61,20 @@ function Profile() {
     </>
   );
 }
+
+// 5. Conditional rendering
+function AdminPanel() {
+  return <h2>Admin Panel</h2>;
+}
+function LoginForm() {
+  return <h2>Please log in</h2>;
+}
+function ConditionalSection({ isLoggedIn }) {
+  let content;
+  if (isLoggedIn) {
+    content = <AdminPanel />;
+  } else {
+    content = <LoginForm />;
+  }
+  return <div>{content}</div>;
+}
