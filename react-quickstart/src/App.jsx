@@ -158,3 +158,24 @@ function SharedCounters() {
   );
 }
 
+export default function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  return (
+    <div style={{ padding: 20 }}>
+      <Welcome /> 
+      <AboutPage />
+      <Profile />
+
+      <button onClick={() => setIsLoggedIn(!isLoggedIn)}>
+        {isLoggedIn ? 'Log out' : 'Log in'}
+      </button>
+      <ConditionalSection isLoggedIn={isLoggedIn} />
+      <ShoppingList />
+      <AlertButton />
+      <IndependentCounters />
+      <SharedCounters />
+    </div>
+  );
+}
+
