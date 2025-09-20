@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Practice</title>
+</head>
+<body>
+    <button id="colorBtn">Change Background</button>
+    <p id="colorDisplay"></p>
+    <p id="timeoutMsg"></p>
+
+    <script>
+        document.getElementById("colorBtn").onclick = function() {
+            document.body.style.backgroundColor = "lightblue";
+        };
+
+        const favColor = prompt("What is your favorite color?");
+        document.getElementById("colorDisplay").textContent = "Your favorite color is: " + favColor;
+
+        setTimeout(() => {
+            document.getElementById("timeoutMsg").textContent = "This message appears after 2 seconds";
+        }, 2000);
+    </script>
+</body>
+</html>
