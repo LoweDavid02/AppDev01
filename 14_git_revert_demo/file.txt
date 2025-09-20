@@ -1,2 +1,5 @@
 Line 1
 Line 2
+Realization: Revert created a new commit that undid the last change.
+Unlike reset, the history is preserved.
+
