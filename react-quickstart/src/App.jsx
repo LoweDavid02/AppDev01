@@ -17,4 +17,12 @@ function Welcome() {
   );
 }
 
-
+// 2. Writing markup with JSX
+function AboutPage() {
+  return (
+    <>
+      <h1>About</h1>
+      <p>Hello there.<br />How do you do?</p>
+    </>
+  );
+}
