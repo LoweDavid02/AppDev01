@@ -134,3 +134,27 @@ function IndependentCounters() {
     </div>
   );
 }
+
+// 9. Using hooks & sharing data (counters that update together)
+function SharedCounterButton({ count, onClick }) {
+  return (
+    <button onClick={onClick}>
+      Clicked {count} times
+    </button>
+  );
+}
+
+function SharedCounters() {
+  const [count, setCount] = useState(0);
+  function handleClick() {
+    setCount(count + 1);
+  }
+  return (
+    <div>
+      <h2>Counters that update together</h2>
+      <SharedCounterButton count={count} onClick={handleClick} />
+      <SharedCounterButton count={count} onClick={handleClick} />
+    </div>
+  );
+}
+
