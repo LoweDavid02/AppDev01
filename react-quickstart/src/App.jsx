@@ -26,3 +26,19 @@ function AboutPage() {
     </>
   );
 }
+
+// 3. Adding style
+function Avatar({ imageUrl, imageSize, name }) {
+  return (
+    <img
+      className="avatar"
+      src={imageUrl}
+      alt={'Photo of ' + name}
+      style={{
+        width: imageSize,
+        height: imageSize
+      }}
+    />
+  );
+}
+
