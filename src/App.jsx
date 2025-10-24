@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 // Import all components
-import One from './components/One'
+import One from './Components/One'
 import Two from './components/Two'
 import Three from './components/Three'
 import Four from './components/Four'
@@ -12,18 +12,21 @@ import Five from './components/Five'
 import Six from './components/Six'
 import Seven from './components/Seven'
 import Eight from './components/Eight'
+import Nine from './Components/Nine'
+
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      {/* Default Vite header */}
+      
       <div>
-        <a href="https://vite.dev" target="_blank">
+        <a href="https://vite.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
@@ -43,7 +46,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
 
-      {/* === Describing the UI Demo === */}
+  
       <div style={{ textAlign: "left", marginTop: "3rem" }}>
         <h2>🧩 React - Describing the UI</h2>
         <hr />
@@ -86,6 +89,11 @@ function App() {
         <section>
           <h3>8️⃣ Pure Components (Avoid Bugs)</h3>
           <Eight />
+        </section>
+
+        <section>
+          <h3>9️⃣ Why Understanding Your UI as Trees is Useful</h3>
+          <Nine />
         </section>
       </div>
     </>
