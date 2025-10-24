@@ -1,0 +1,3 @@
+Realization: Merge preserved both histories and added a merge commit,
+showing parallel development paths joined together.
+

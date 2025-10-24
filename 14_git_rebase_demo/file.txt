@@ -1,0 +1,3 @@
+Realization: After rebase, commits from feature were placed on top of main’s history,
+creating a linear timeline (no merge commit).
+
