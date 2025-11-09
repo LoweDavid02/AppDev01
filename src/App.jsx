@@ -5,12 +5,12 @@ import './App.css'
 
 import Profile from './components/Profile'
 import Gallery from './components/Gallery'
-import RootComponent from './topics/RootComponent'
-import ImportExport from './topics/ImportExport'
-import DefaultNamed from './topics/DefaultNamed'
-import MultipleExports from './topics/MultipleExports'
-import Recap from './topics/Recap'
-import Challenge from './topics/Challenge'
+import RootComponent from './components/topics/RootComponents'
+import ImportExport from './components/topics/ImportExport'
+import DefaultNamed from './components/topics/DefaultNamed'
+import MultipleExports from './components/topics/MultipleExports'
+import Recap from './components/topics/Recap'
+import Challenge from './components/topics/Challenge'
 
 function App() {
   const [count, setCount] = useState(0)
