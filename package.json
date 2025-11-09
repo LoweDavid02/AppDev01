@@ -1,9 +1,13 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "react-importing-exporting-components",
 =======
   "name": "react-writing-markup-with-jsx",
 >>>>>>> 6fae677 (Done with Setup components and file inside)
+=======
+  "name": "react-describing-ui",
+>>>>>>> d85403c (Re-committing this projects, and doing again because it was deleted by conflicts and confussions that cuase a wrong commands)
   "private": true,
   "version": "0.0.0",
   "type": "module",

@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d85403c (Re-committing this projects, and doing again because it was deleted by conflicts and confussions that cuase a wrong commands)
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -40,6 +43,7 @@
 
 .read-the-docs {
   color: #888;
+<<<<<<< HEAD
 =======
 .app {
   max-width: 800px;
@@ -84,4 +88,6 @@ section {
   border: 1px solid #eee;
   margin: 0.5rem 0;
 >>>>>>> 6fae677 (Done with Setup components and file inside)
+=======
+>>>>>>> d85403c (Re-committing this projects, and doing again because it was deleted by conflicts and confussions that cuase a wrong commands)
 }
