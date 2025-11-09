@@ -1,35 +1,45 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css';
+import Gallery from './components/Gallery';
+import ChallengeProfile from './components/ChallengeProfile';
+import FixedProfile from './components/FixedProfile';
+import Profile from './components/CorrectProfile';
+import Congratulations from './components/Congratulations';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div className="app">
+      <h1>My First Component</h1>
+      
+      {/* Main tutorial component */}
+      <section>
+        <h2>Gallery Example</h2>
+        <Gallery />
+      </section>
 
-export default App
+      {/* Challenge solutions */}
+      <section>
+        <h2>Challenge Solutions</h2>
+        
+        <div>
+          <h3>Challenge 1: Exported Component</h3>
+          <ChallengeProfile />
+        </div>
+
+        <div>
+          <h3>Challenge 2: Fixed Return Statement</h3>
+          <FixedProfile />
+        </div>
+
+        <div>
+          <h3>Challenge 3: Correct Component Name</h3>
+          <Profile />
+        </div>
+
+        <div>
+          <h3>Challenge 4: Custom Component</h3>
+          <Congratulations />
+        </div>
+      </section>
+    </div>
+  );
+}
