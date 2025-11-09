@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -56,6 +57,32 @@ function App() {
           </p>
         </div>
       </main>
+=======
+import './App.css'
+import TodoList from './components/TodoList'
+import Bio from './components/Bio'
+import JSXRulesDemo from './components/JSXRulesDemo'
+
+function App() {
+  return (
+    <div className="app">
+      <h1>Learning JSX</h1>
+      
+      <section>
+        <h2>Todo List Example</h2>
+        <TodoList />
+      </section>
+
+      <section>
+        <h2>Bio Example</h2>
+        <Bio />
+      </section>
+
+      <section>
+        <h2>JSX Rules Demonstration</h2>
+        <JSXRulesDemo />
+      </section>
+>>>>>>> 6fae677 (Done with Setup components and file inside)
     </div>
   )
 }

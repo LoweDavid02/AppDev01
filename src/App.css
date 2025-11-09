@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +40,48 @@
 
 .read-the-docs {
   color: #888;
+=======
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.intro {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.summary {
+  line-height: 1.6;
+}
+
+.jsx-rules section {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #f8f8f8;
+}
+
+.example {
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #eee;
+  margin: 0.5rem 0;
+>>>>>>> 6fae677 (Done with Setup components and file inside)
 }

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "react-importing-exporting-components",
+=======
+  "name": "react-writing-markup-with-jsx",
+>>>>>>> 6fae677 (Done with Setup components and file inside)
   "private": true,
   "version": "0.0.0",
   "type": "module",
