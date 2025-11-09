@@ -1,4 +1,4 @@
-import { getImageUrl } from './utils/utils';
+import { getImageUrl } from '../../utils/utils';
 
 export default function Profile({ 
   person = {
@@ -26,5 +26,5 @@ export default function Profile({
         </div>
       )}
     </div>
-  )
+  );
 }
