@@ -1,22 +1,9 @@
 export default function App() {
-  return (
-    <div>
-      <h1>Passing Strings with Quotes Example</h1>
+  const name = "Gregorio Y. Zara";
 
-      <Avatar
-        url="https://i.imgur.com/7vQD0fPs.jpg"
-        name="Gregorio Y. Zara"
-      />
-    </div>
+  return (
+    <h1>{name}'s To Do List</h1>
   );
 }
-
-function Avatar({ url, name }) {
-  return (
-    <img
-      className="avatar"
-      src={url}
-      alt={name}
-    />
-  );
-}
+const today = new Date();
+const formatted = today.toLocaleDateString();
