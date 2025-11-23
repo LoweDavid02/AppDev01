@@ -1,9 +1,17 @@
 export default function App() {
-  const name = "Gregorio Y. Zara";
+  const person = {
+    name: "Gregorio Y. Zara",
+    backgroundColor: "black",
+    color: "pink"
+  };
 
   return (
-    <h1>{name}'s To Do List</h1>
+    <div style={{ 
+      backgroundColor: person.backgroundColor,
+      color: person.color,
+      padding: "20px" 
+    }}>
+      <h1>{person.name}'s Styled Component</h1>
+    </div>
   );
 }
-const today = new Date();
-const formatted = today.toLocaleDateString();
