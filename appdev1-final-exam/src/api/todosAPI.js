@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-const API_BASE = import.meta.env.VITE_APP_API_URL
+const API_BASE = import.meta.env.VITE_APP_API_URL || 'https://jsonplaceholder.typicode.com'
 
 
 const api = axios.create({
